@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "88fb269a-32f3-4ddc-829f-c04010028aa5",
+		"name": "HotelHubEndPoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FirstName\":\"Halil\",\r\n    \"LastName\":\"Akcil\",\r\n    \"Email\":\"halilakcil@gmail.com\",\r\n    \"Password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\":\"halilakcil@gmail.com\",\r\n    \"Password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCheapestRoomPrices",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJlbWFpbCI6ImhhbGlsYWtjaWxAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkhhbGlsIEFrY2lsIiwibmJmIjoxNjQxNzM0MTk3LCJleHAiOjE2NDE3MzQ3OTcsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTMyMDUiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUzMjA1In0.vkgqxVI4EkAf-lbTQdJuaQfkcaVPHvIVhKo3PSrZHrE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/HotelRooms/GetCheapestRoomPrices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"HotelRooms",
+						"GetCheapestRoomPrices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AdvancedRoomSearch",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMiLCJlbWFpbCI6Im9tZXJzYXJpdGVtdXJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik9tZXIgU2FyaXRlbXVyIiwibmJmIjoxNjQxNzM3NDczLCJleHAiOjE2NDE3MzgwNzMsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTMyMDUiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUzMjA1In0.-9OkGsVKK-kBiXgEQbhRtshAK5ZLnS9srs0K7Wynz7I"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"selectedHotelIds\": [\r\n    1,2\r\n  ],\r\n  \"roomTypeIds\": [\r\n    1\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/HotelRooms/AdvancedRoomSearch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"HotelRooms",
+						"AdvancedRoomSearch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RoomAvailabilityCheck",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMiLCJlbWFpbCI6Im9tZXJzYXJpdGVtdXJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik9tZXIgU2FyaXRlbXVyIiwibmJmIjoxNjQxNzM3NDczLCJleHAiOjE2NDE3MzgwNzMsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTMyMDUiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUzMjA1In0.-9OkGsVKK-kBiXgEQbhRtshAK5ZLnS9srs0K7Wynz7I"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"hotelIds\": [\r\n    1,2\r\n  ],\r\n  \"roomTypeIds\": [\r\n    1\r\n  ],\r\n  \"requestedRoomCount\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/HotelRooms/RoomAvailabilityCheck",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"HotelRooms",
+						"RoomAvailabilityCheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClearCache",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMiLCJlbWFpbCI6Im9tZXJzYXJpdGVtdXJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik9tZXIgU2FyaXRlbXVyIiwibmJmIjoxNjQxNzM3NDczLCJleHAiOjE2NDE3MzgwNzMsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTMyMDUiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUzMjA1In0.-9OkGsVKK-kBiXgEQbhRtshAK5ZLnS9srs0K7Wynz7I"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/HotelRooms/ClearCache",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"HotelRooms",
+						"ClearCache"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateReservation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMiLCJlbWFpbCI6Im9tZXJzYXJpdGVtdXJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik9tZXIgU2FyaXRlbXVyIiwibmJmIjoxNjQxNzM3NDczLCJleHAiOjE2NDE3MzgwNzMsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTMyMDUiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUzMjA1In0.-9OkGsVKK-kBiXgEQbhRtshAK5ZLnS9srs0K7Wynz7I"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"hotelId\": 1,\r\n  \"roomTypeId\": 1,\r\n  \"requestedRoomCount\": 2,\r\n  \"bookingDateStart\": \"2022-01-09T13:59:52.590Z\",\r\n  \"bookingDateEnd\": \"2022-01-10T13:59:52.590Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/Reservations/CreateReservation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"Reservations",
+						"CreateReservation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CancelReservation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJlbWFpbCI6ImhhbGlsYWtjaWxAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkhhbGlsIEFLQ0lMIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiUHJvZHVjdC5MaXN0IiwibmJmIjoxNjQxNjI5NzkwLCJleHAiOjE2NDE2MzAzOTAsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTMyMDUiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUzMjA1In0.iBvHaUxcll1XAZIqlhUZ9FKea2PqAR3vCChyKjkZbOo"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"reservationId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5242/api/Reservations/CancelReservation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5242",
+					"path": [
+						"api",
+						"Reservations",
+						"CancelReservation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

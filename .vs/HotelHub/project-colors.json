@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6b43011f-da11-4e8a-8f49-d3f88260b66a": {
+      "ProjectGuid": "6b43011f-da11-4e8a-8f49-d3f88260b66a",
+      "DisplayName": "Hotel.Business",
+      "ColorIndex": 0
+    },
+    "5a657086-9603-4cfe-98dc-81f91fcad4c7": {
+      "ProjectGuid": "5a657086-9603-4cfe-98dc-81f91fcad4c7",
+      "DisplayName": "Hotel.XUnitTest",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

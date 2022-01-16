@@ -1,0 +1,12 @@
+﻿										YARDIMCI BİLGİLER
+
+- IEntity interface'ini bu katmana çekmemizin sebebi bir veritabanı nesnesi olduğunu anlatması ve veritabanını da 
+tüm katmanlarda kullanacağımızdan dolayıdır.
+
+
+Cross Cutting Concern:
+
+IConfiguration için kullanılan Microsoft.Extensions.Configuration nuget paketi versiyonu 2.2 . 
+Bu girdiyi yazdığım an itibariyle 3.0 sürümü yayınlamış. Bu yeni versiyonda GetSection() metodu sonrası Get<T>() 
+extension unun gelebilmesi için Microsoft.Extensions.Configuration.Binder nuget paketinin de yüklenmesi gerekiyor.
+
