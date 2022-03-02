@@ -383,14 +383,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AspNetCore.HealthChecks.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "AspNetCore.HealthChecks.UI": {
-              "target": "Package",
-              "version": "[6.0.4, )"
-            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
