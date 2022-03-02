@@ -7527,11 +7527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj",
+      "projectUniqueName": "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj",
       "projectName": "Hotel.Core",
-      "projectPath": "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj",
+      "projectPath": "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj",
       "packagesPath": "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\",
-      "outputPath": "E:\\interview\\HotelHub\\Hotel.Core\\obj\\",
+      "outputPath": "E:\\Dev\\hotelhubs\\Hotel.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

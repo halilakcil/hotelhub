@@ -8834,11 +8834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\interview\\HotelHub\\Hotel.XUnitTest\\Hotel.XUnitTest.csproj",
+      "projectUniqueName": "E:\\Dev\\hotelhubs\\Hotel.XUnitTest\\Hotel.XUnitTest.csproj",
       "projectName": "Hotel.XUnitTest",
-      "projectPath": "E:\\interview\\HotelHub\\Hotel.XUnitTest\\Hotel.XUnitTest.csproj",
+      "projectPath": "E:\\Dev\\hotelhubs\\Hotel.XUnitTest\\Hotel.XUnitTest.csproj",
       "packagesPath": "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\",
-      "outputPath": "E:\\interview\\HotelHub\\Hotel.XUnitTest\\obj\\",
+      "outputPath": "E:\\Dev\\hotelhubs\\Hotel.XUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -8860,8 +8860,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\interview\\HotelHub\\Hotel.Business\\Hotel.Business.csproj": {
-              "projectPath": "E:\\interview\\HotelHub\\Hotel.Business\\Hotel.Business.csproj"
+            "E:\\Dev\\hotelhubs\\Hotel.Business\\Hotel.Business.csproj": {
+              "projectPath": "E:\\Dev\\hotelhubs\\Hotel.Business\\Hotel.Business.csproj"
             }
           }
         }

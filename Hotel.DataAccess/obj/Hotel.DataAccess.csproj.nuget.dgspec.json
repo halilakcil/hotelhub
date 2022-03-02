@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\interview\\HotelHub\\Hotel.DataAccess\\Hotel.DataAccess.csproj": {}
+    "E:\\Dev\\hotelhubs\\Hotel.DataAccess\\Hotel.DataAccess.csproj": {}
   },
   "projects": {
-    "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj": {
+    "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj",
+        "projectUniqueName": "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj",
         "projectName": "Hotel.Core",
-        "projectPath": "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj",
+        "projectPath": "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj",
         "packagesPath": "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\",
-        "outputPath": "E:\\interview\\HotelHub\\Hotel.Core\\obj\\",
+        "outputPath": "E:\\Dev\\hotelhubs\\Hotel.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -113,14 +113,14 @@
         }
       }
     },
-    "E:\\interview\\HotelHub\\Hotel.DataAccess\\Hotel.DataAccess.csproj": {
+    "E:\\Dev\\hotelhubs\\Hotel.DataAccess\\Hotel.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\interview\\HotelHub\\Hotel.DataAccess\\Hotel.DataAccess.csproj",
+        "projectUniqueName": "E:\\Dev\\hotelhubs\\Hotel.DataAccess\\Hotel.DataAccess.csproj",
         "projectName": "Hotel.DataAccess",
-        "projectPath": "E:\\interview\\HotelHub\\Hotel.DataAccess\\Hotel.DataAccess.csproj",
+        "projectPath": "E:\\Dev\\hotelhubs\\Hotel.DataAccess\\Hotel.DataAccess.csproj",
         "packagesPath": "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\",
-        "outputPath": "E:\\interview\\HotelHub\\Hotel.DataAccess\\obj\\",
+        "outputPath": "E:\\Dev\\hotelhubs\\Hotel.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -142,11 +142,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj": {
-                "projectPath": "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj"
+              "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj": {
+                "projectPath": "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj"
               },
-              "E:\\interview\\HotelHub\\Hotel.Entities\\Hotel.Entities.csproj": {
-                "projectPath": "E:\\interview\\HotelHub\\Hotel.Entities\\Hotel.Entities.csproj"
+              "E:\\Dev\\hotelhubs\\Hotel.Entities\\Hotel.Entities.csproj": {
+                "projectPath": "E:\\Dev\\hotelhubs\\Hotel.Entities\\Hotel.Entities.csproj"
               }
             }
           }
@@ -185,14 +185,14 @@
         }
       }
     },
-    "E:\\interview\\HotelHub\\Hotel.Entities\\Hotel.Entities.csproj": {
+    "E:\\Dev\\hotelhubs\\Hotel.Entities\\Hotel.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\interview\\HotelHub\\Hotel.Entities\\Hotel.Entities.csproj",
+        "projectUniqueName": "E:\\Dev\\hotelhubs\\Hotel.Entities\\Hotel.Entities.csproj",
         "projectName": "Hotel.Entities",
-        "projectPath": "E:\\interview\\HotelHub\\Hotel.Entities\\Hotel.Entities.csproj",
+        "projectPath": "E:\\Dev\\hotelhubs\\Hotel.Entities\\Hotel.Entities.csproj",
         "packagesPath": "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\",
-        "outputPath": "E:\\interview\\HotelHub\\Hotel.Entities\\obj\\",
+        "outputPath": "E:\\Dev\\hotelhubs\\Hotel.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -214,8 +214,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj": {
-                "projectPath": "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj"
+              "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj": {
+                "projectPath": "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj"
               }
             }
           }
