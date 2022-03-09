@@ -10,7 +10,32 @@
       "ProjectGuid": "5a657086-9603-4cfe-98dc-81f91fcad4c7",
       "DisplayName": "Hotel.XUnitTest",
       "ColorIndex": 1
+    },
+    "7ca76f4e-8070-4bb6-8c36-1fe7ee8a13c0": {
+      "ProjectGuid": "7ca76f4e-8070-4bb6-8c36-1fe7ee8a13c0",
+      "DisplayName": "HotelHubAPI",
+      "ColorIndex": 2
+    },
+    "ec60f228-92ba-4947-a632-bcfdb5d0b606": {
+      "ProjectGuid": "ec60f228-92ba-4947-a632-bcfdb5d0b606",
+      "DisplayName": "Hotel.DataAccess",
+      "ColorIndex": 3
+    },
+    "438640cb-a05b-4f37-8a33-4aa8d8ddef7c": {
+      "ProjectGuid": "438640cb-a05b-4f37-8a33-4aa8d8ddef7c",
+      "DisplayName": "Hotel.Core",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2dc628ac-98cf-4e77-8024-b2b3dc58e81c": {
+      "ProjectGuid": "2dc628ac-98cf-4e77-8024-b2b3dc58e81c",
+      "DisplayName": "Hotel.HealthCheck",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 6
 }

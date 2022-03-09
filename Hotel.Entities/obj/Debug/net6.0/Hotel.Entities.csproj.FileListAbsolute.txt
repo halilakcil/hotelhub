@@ -1,0 +1,17 @@
+E:\Dev\hotelhubs\Hotel.Entities\bin\Debug\net6.0\Hotel.Entities.deps.json
+E:\Dev\hotelhubs\Hotel.Entities\bin\Debug\net6.0\Hotel.Entities.runtimeconfig.json
+E:\Dev\hotelhubs\Hotel.Entities\bin\Debug\net6.0\Hotel.Entities.dll
+E:\Dev\hotelhubs\Hotel.Entities\bin\Debug\net6.0\ref\Hotel.Entities.dll
+E:\Dev\hotelhubs\Hotel.Entities\bin\Debug\net6.0\Hotel.Entities.pdb
+E:\Dev\hotelhubs\Hotel.Entities\bin\Debug\net6.0\Hotel.Core.dll
+E:\Dev\hotelhubs\Hotel.Entities\bin\Debug\net6.0\Hotel.Core.pdb
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.csproj.AssemblyReference.cache
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.AssemblyInfoInputs.cache
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.AssemblyInfo.cs
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.csproj.CoreCompileInputs.cache
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.csproj.CopyComplete
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.dll
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\ref\Hotel.Entities.dll
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.pdb
+E:\Dev\hotelhubs\Hotel.Entities\obj\Debug\net6.0\Hotel.Entities.genruntimeconfig.cache

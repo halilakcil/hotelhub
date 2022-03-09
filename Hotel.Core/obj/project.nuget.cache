@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tV9QvBFs3nbofldeZcEXrOvj4+KMkSd2uOOZFj9jS0T9UUB5grX3ArVG3SEVw3MdaKh/5DdHo+zOXorQzeFwCg==",
+  "dgSpecHash": "7I5yuO2fhD4o4UrLR4mRuSxCmnNDxAcwAbS+L2hG2MsqayxTRygpZ9vzovOkTEvo3b1rY9n8KTQ5eCNzgrouMw==",
   "success": true,
-  "projectFilePath": "E:\\interview\\HotelHub\\Hotel.Core\\Hotel.Core.csproj",
+  "projectFilePath": "E:\\Dev\\hotelhubs\\Hotel.Core\\Hotel.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",

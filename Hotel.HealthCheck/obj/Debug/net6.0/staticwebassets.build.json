@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0HuImib6ZXOu8BIapMWwzHx3rKuyeWAhAvq3ucljmn4=",
+  "Source": "Hotel.HealthCheck",
+  "BasePath": "_content/Hotel.HealthCheck",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
